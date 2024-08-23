@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-npm run commitlint 
-# pnpm run commitlint <- if you're using pnpm
-# yarn commitlint <- if you're using yarn
