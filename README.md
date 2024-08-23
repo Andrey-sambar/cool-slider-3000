@@ -1,1 +1,0 @@
-# cool-slider-3000
