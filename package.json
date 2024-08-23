@@ -12,12 +12,12 @@
     "build-prod": "parcel build src/index.html",
     "test": "mocha"
   },
-  "dependencies": {},
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
+    "chai": "^5.1.1",
     "mocha": "^10.7.3",
-    "chai": "^5.1.1"
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^5.5.4"
   }
 }
