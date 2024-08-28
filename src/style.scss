@@ -1,0 +1,51 @@
+$pos: 70%;
+
+.cool-slider-3000 {
+  margin: 0;
+  padding: 0;
+
+  
+
+  display: block;
+  color: red;
+}
+
+.slider-line {
+  margin: 0;
+  padding: 0;
+
+  position: relative;
+
+  width: 300px;
+  height: 5px;
+
+  border-radius: 2.5px;
+  border: 1px solid black;
+
+  z-index: 0;
+}
+
+.slider-circle {
+  margin: 0;
+  padding: 0;
+
+  position: absolute;
+  top: 50%;
+  left: $pos;
+
+  transform: translate(-10px, -10px);  
+  //transform: translateY(-50%);
+  
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 10px;
+  background-color: red;
+}
+
+.slider-fill {
+  height: 100%;
+  width: $pos;
+  background-color: black;
+}
