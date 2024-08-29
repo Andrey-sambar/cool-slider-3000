@@ -1,12 +1,29 @@
 import $ from "jquery";
 
-(function($){
-  jQuery.fn.coolSlider3000 = function(options) {
+class View {
 
-    let make = function (){
-      //code
-    }
+  constructor(private root: JQuery) {}
 
-    return this.each(make);
-  };
-})(jQuery);
+  //private root: JQuery;
+
+  render(){
+    this.root.append("<div>append from view</div>");
+  }
+}
+
+class Model {}
+
+class Presenter {}
+
+
+$.fn.coolSlider3000 = function(): JQuery {
+
+    const view: View = new View($(this));
+
+    view.render();
+
+    return this;
+};
+
+
+$(".cool-slider-3000").coolSlider3000();
